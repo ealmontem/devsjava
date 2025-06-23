@@ -15,7 +15,11 @@ public class Persona {
     }
 
     public static void main(String[] args) {
-
+       Persona p = new Persona();
+       p.nombre = "Alex";
+       p.edad = 33;
+       p.genero = 'M';
+       p.imprimirInformacion();
     }
 
 
