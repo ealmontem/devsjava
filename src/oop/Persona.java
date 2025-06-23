@@ -14,7 +14,9 @@ public class Persona {
         System.out.println("Genero: " + genero);
     }
 
+    public static void main(String[] args) {
 
+    }
 
 
 }
