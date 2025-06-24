@@ -7,6 +7,17 @@ public class Persona {
     int edad;
     char genero;
 
+    Persona(){
+        System.out.println("Constructor por defecto");
+    }
+
+    Persona(String nombre, int edad, char genero){
+        this.nombre = nombre;
+        this.edad = edad;
+        this.genero = genero;
+    }
+
+
     void jugarVideosJuegos(Persona persona){
         System.out.println(nombre + " juega videos juegos con " + persona.nombre);
 
@@ -20,10 +31,10 @@ public class Persona {
     }
 
     public static void main(String[] args) {
-       Persona p = new Persona();
-       p.nombre = "Alex";
-       p.edad = 33;
-       p.genero = 'M';
+       Persona p = new Persona("Alex",33,'M');
+//       p.nombre = "Alex";
+//       p.edad = 33;
+//       p.genero = 'M';
        p.imprimirInformacion();
        //
         Persona p1 = new Persona();
