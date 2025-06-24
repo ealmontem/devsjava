@@ -7,6 +7,11 @@ public class Persona {
     int edad;
     char genero;
 
+    void jugarVideosJuegos(Persona persona){
+        System.out.println(nombre + " juega videos juegos con " + persona.nombre);
+
+    }
+
     //metodos
     void imprimirInformacion(){
         System.out.println("Nombre: " + nombre);
@@ -20,6 +25,13 @@ public class Persona {
        p.edad = 33;
        p.genero = 'M';
        p.imprimirInformacion();
+       //
+        Persona p1 = new Persona();
+        p1.nombre = "Juan";
+        p1.edad = 89;
+        p1.genero = 'M';
+        p1.imprimirInformacion();
+        p.jugarVideosJuegos(p1);
     }
 
 
