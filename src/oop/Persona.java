@@ -17,6 +17,11 @@ public class Persona {
         this.genero = genero;
     }
 
+    Persona(String nombre, int edad){
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
 
     void jugarVideosJuegos(Persona persona){
         System.out.println(nombre + " juega videos juegos con " + persona.nombre);
