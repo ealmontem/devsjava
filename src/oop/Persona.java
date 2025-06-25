@@ -12,14 +12,13 @@ public class Persona {
     }
 
     Persona(String nombre, int edad, char genero){
-        this.nombre = nombre;
-        this.edad = edad;
+        this(nombre, edad);
         this.genero = genero;
     }
 
     Persona(String nombre, int edad){
-        this.nombre = nombre;
-        this.edad = edad;
+      this.nombre = nombre;
+      this.edad = edad;
     }
 
 
@@ -37,15 +36,8 @@ public class Persona {
 
     public static void main(String[] args) {
        Persona p = new Persona("Alex",33,'M');
-//       p.nombre = "Alex";
-//       p.edad = 33;
-//       p.genero = 'M';
        p.imprimirInformacion();
-       //
-        Persona p1 = new Persona();
-        p1.nombre = "Juan";
-        p1.edad = 89;
-        p1.genero = 'M';
+        Persona p1 = new Persona("Juan", 89,'M');
         p1.imprimirInformacion();
         p.jugarVideosJuegos(p1);
     }
