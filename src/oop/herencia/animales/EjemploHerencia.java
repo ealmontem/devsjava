@@ -1,4 +1,4 @@
-package oop.herencia;
+package oop.herencia.animales;
 
 class Animal {
     String nombre;
