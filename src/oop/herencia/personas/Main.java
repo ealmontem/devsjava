@@ -10,6 +10,13 @@ public class Main {
         e.aprobar();
         e.respirar();
 
+        Empleado empleado = new Empleado();
+        empleado.nombre = "Juan";
+        empleado.sueldo = 100.3f;
+        empleado.trabajar();
+        empleado.cobrar();
+
+
 
 
 
