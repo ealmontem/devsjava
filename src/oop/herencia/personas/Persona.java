@@ -9,8 +9,9 @@ public class Persona {
         this.fechaDeNacimiento = fechaDeNacimiento;
     }
 
-    void dormir(){
+    public Persona dormir(){
         System.out.println("Soy la persona " + nombre + " y estoy durmiendo");
+        return null;
     }
 
     void respirar(){

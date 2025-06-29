@@ -17,8 +17,9 @@ public class Estudiante extends Persona{
     }
 
     @Override
-    void dormir() {
+    public Persona dormir() {
         System.out.println("Soy el Estudiante " + nombre + " y duermo poco");
-        super.dormir();
+        return null;
+        //super.dormir();
     }
 }

@@ -16,7 +16,8 @@ public class Empleado extends Persona{
     }
 
     @Override
-    void dormir() {
-        System.out.println("Soy " + nombre + " y duermo muchisimo");
+    public Empleado dormir() {
+        System.out.println("Soy el empleado " + nombre + " y duermo muchisimo");
+        return null;
     }
 }

@@ -7,9 +7,6 @@ public class Main {
         e.nombre = "Elvis";
         e.fechaDeNacimiento = "12/01/1987";
 
-        e.aprobar();
-        e.dormir();
-
         Empleado empleado = new Empleado(23.2f, "Robert", "23/09/2000");
         empleado.nombre = "Juan";
         empleado.sueldo = 100.3f;
